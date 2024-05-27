@@ -36,13 +36,14 @@ Requirements:
 
   • Ride Selection:
     Select Ride: Users can select a ride from mul3ple offered rides using a selection strategy based on preferred vehicle or most vacant seats `select_ride(source, destination, seats, selection_strategy)`
+   
     ```
     select_ride("Nandini, Origin-Bangalore, Destination-Mysore, Seats=1, Most Vacant") (2(c) is the desired output)
     select_ride("Gaurav, Origin=Bangalore, Destination Mysore, Seats 1, Preferred Vehicle Activa") (2(b) is the desired output)
     select_ride("Shashank, Origin=Mumbai, Destination-Bangalore, Seats-1, Most Vacant") (No rides found)
     select_ride("Rohan, Origin=Hyderabad, Destination-Bangalore, Seats-1, Preferred Vehicle-Baleno") (2(d) is the desired output)
     select_ride("Shashank, Origin=Hyderabad, Destination-Bangalore, Seats=1, Preferred Vehicle Polo") (No rides found)
-  ```
+    ```
 
   • Statistics:
     Print Ride Stats: Retrieve and display total rides offered/taken by all users. `print_ride_stats()`
