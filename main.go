@@ -6,14 +6,6 @@ import (
 	"ride-sharing/pkg/service"
 )
 
-/**
- I have not implement end_ride method, because I am unable to understand how values 2(a), 2(b), 2(c), 2(d) are coming. I can implement them during interview.
-
- Abhishek Singh Thakur
- 7225889071
- mailabhi593@gmail.com
-**/
-
 func main() {
 
 	users := make(map[string]contract.User)
